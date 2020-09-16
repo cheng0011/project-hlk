@@ -1,0 +1,43 @@
+.safe-table {
+  padding-top: 10px;
+  height: calc(100% - 40px);
+  display: flex;
+  flex-direction: column;
+  .day-group {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .block-2,.block-5,.block-8,.block-10,.block-12,.block-15,.block-17,.block-19,.block-22,.block-24,.block-26,.block-29,.block-32{
+      border-left: none;
+      border-right: none;
+    }
+  }
+  .day-group-0,.day-group-1,.day-group-2,.day-group-3 {
+    .block {
+      border-bottom: none;
+    }
+  }
+  .day-group-5,.day-group-6 {
+    .block {
+      border-top: none;
+    }
+  }
+  .block {
+    width: 22px;
+    height: 22px;
+    padding: 1px;
+    border: 1px solid gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    span {
+      width: 100%;
+      height: 100%;
+      text-align: center;
+    }
+  }
+}

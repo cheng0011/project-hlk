@@ -1,0 +1,39 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  .header {
+    padding: 0 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8%;
+    border-bottom: 1px solid black;
+    .select-block {
+      margin-left: 20px;
+      .select-center{
+        .ant-select-selection__placeholder {
+          text-align: center;
+        }
+      }
+    }
+  }
+  .loading-wrap {
+    width: 100%;
+    height: 92%!important;
+    .ant-spin-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .eqRepair,.eqUse,.ontime-rate,.eqTime,.repair-list,.repair-pause,.event {
+      height: 100%;
+      padding: 0 20px;
+    }
+  }
+}

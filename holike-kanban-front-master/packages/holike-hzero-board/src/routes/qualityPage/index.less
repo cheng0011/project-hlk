@@ -1,0 +1,36 @@
+.wrap {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  .header {
+    padding: 0 2%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8%;
+    border-bottom: 1px solid black;
+    .select-center{
+      .ant-select-selection__placeholder {
+        text-align: center;
+      }
+    }
+  }
+  .loading-wrap {
+    width: 100%;
+    height: 92%!important;
+    .ant-spin-container {
+      height: 100%;
+      width: 100%;
+    }
+  }
+  .content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    .quality-ksl,.quality-zchgl,.quality-attention,.quality-repair,.quality-board {
+      height: 100%;
+      padding: 0 20px;
+    }
+  }
+}

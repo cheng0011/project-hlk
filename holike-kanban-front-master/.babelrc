@@ -1,0 +1,45 @@
+{
+  "presets": [
+    "react-app"
+  ],
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "hzero-ui",
+        "libraryDirectory": "es",
+        "style": true
+      },
+      "ant"
+    ],
+    [
+      "import",
+      {
+        "libraryName": "choerodon-ui",
+        "style": true
+      },
+      "c7n"
+    ],
+    [
+      "import",
+      {
+        "libraryName": "choerodon-ui/pro",
+        "style": true
+      },
+      "c7n-pro"
+    ],
+    [
+      "@babel/plugin-proposal-decorators", // 启用装饰器
+      {
+        "legacy": true
+      }
+    ],
+    "lodash",
+    [
+      "@babel/plugin-proposal-class-properties",
+      {
+        "loose": true
+      }
+    ],
+  ]
+}
